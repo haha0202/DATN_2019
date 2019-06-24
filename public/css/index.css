@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{}
+.header{}
+.header .row .logo{
+	padding-top: 8px;
+}
+.header .row .title-name{
+	padding: 28px 20px;
+	box-sizing: border-box;
+}
+.header .row .title-name .p1{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #019b13;
+	
+}
+.header .row .form-search{
+	padding-bottom: 27px;
+}
+.header .row .form-search .form-control{
+	box-shadow: 1px 1px 1px 1px lightgrey;
+	border-radius: 3px;
+	background-color: #edeef0;
+	color: #808ca7;
+	
+}
+.header .row .form-search .btn{
+	box-shadow: 1px 1px 1px 1px lightgrey;
+	border-radius: 3px;
+	background-color: #edeef0;
+	color: #808ca7;
+}
+.menu {
+  background: linear-gradient(#01a01e,#09bf2a,#01a01e);
+  margin-bottom: 5px;
+
+}
+.menu ul{
+  margin-bottom: 0;
+}
+.menu ul li{
+  display: inline-block;
+  position: relative;
+}
+.menu ul li a{
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  padding: 7px 35px;
+}
+.menu ul li a:hover{
+  color: yellow;
+}
+.menu ul li ul{
+  display: none;
+  background-color: white;
+  position: absolute;
+   z-index: 1;
+}
+.menu ul li ul li{
+  border-bottom: 0.5px solid lightgray;
+}
+.menu ul li ul li:last-child{
+  border-bottom: none;  
+}
+.menu ul li:hover ul{
+  display: block;
+}
+.menu ul li ul li a{
+  width: 220px;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.menu ul li ul li:hover{
+  border-left: 3px solid lightskyblue;
+}
+.menu ul li ul li a:hover{
+  background-color: lightskyblue;
+  color: white;
+}
+.carousel{
+	height: 370px;
+	margin-bottom: 10px;
+	z-index: 0;
+}
+.carousel .carousel-inner .item img{
+	height: 370px;
+	width: 100%;
+}
+.main{
+	margin-bottom: 30px;
+}
+.main .box_index{
+	margin-bottom: 40px;
+}
+.main .box_index .row h4{
+	font-weight: bold;
+	color: darkblue;
+	margin: 0 0 3px 0;
+	font-size: 16px;
+}
+.main .box_index .row p{
+	margin: 0 0 3px 0;
+
+}
+.main .box_index .row p a{
+	color: #333;
+}
+.main .box_index .row p a:hover{
+	color: green;
+}
+.main .box_index .row img{
+	height: 90px;
+}
+.main .box_index .row .left{}
+.main .box_index .row .right{
+	border-right: 0.5px solid lightgrey;
+}
+.main .main_new{}
+.main .main_new .row h4{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: darkblue;
+	font-size: 18px;
+}
+.main .main_new .row a{
+	color: #333;
+	font-weight: bold;
+}
+.main .main_new .row div{
+	margin-bottom: 10px;
+}
+.main .main_new .row div p{
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.footer{
+	background-color: #eff1f4;
+	padding: 20px;
+}
+.footer .row p{
+	margin-bottom: 0;
+}
+.footer .row .name-footer-1{
+	font-weight: bold;
+	text-transform: uppercase
+}
